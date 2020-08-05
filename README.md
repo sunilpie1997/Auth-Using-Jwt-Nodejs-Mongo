@@ -2,7 +2,7 @@
 
 https://github.com/sunilpie1997/authenticate_using_jwt_nodejs.git
 
-*******check steps.txt to get started with this******
+*check steps.txt to get started with this*
 
 This project shows how to  safely store password and at the same time authenticate users 
 using json web token.
@@ -27,7 +27,7 @@ Note:private_key is generated using 'puttygen' tool.
 
 Note:'essentials' folder contain 2 files:
      
-     a) db_properties->connection uri for mongodb cloud.ENTER CORRECT PASSWORD AND DATABASE_NAME                after creating  user on MONGODB CLOUD.
+     a) db_properties->connection uri for mongodb cloud.ENTER CORRECT PASSWORD AND DATABASE_NAME after creating  user on MONGODB CLOUD.
 
      b)auth-user->contains middleware 'authenticateToken' function to verify token and extract username
      and execute database search for that username.
