@@ -1,0 +1,21 @@
+1) git clone this project:https://github.com/sunilpie1997/authenticate_using_jwt_nodejs.git
+
+2) cd <project_root>
+
+3) npm install
+
+4) create free account on mongodb,then create user for access,then access connection uri after clicking 'Connect'.
+
+5)const uri = "mongodb+srv://sunilpie:<your_password>@ecommerce-app.2wwgm.mongodb.net/<your_db>?retryWrites=true&w=majority";
+
+Enter your 'your_db' and 'your_password' after completing step 4.
+
+6)nodemon run start
+
+7)open postman,create 1 user and check your DATABASE if a 'document' is there in 'users' collection.
+
+8)now access your details using:
+    http://localhost:8080/user/
+
+
+****************************END*************************************
